@@ -1,0 +1,63 @@
+body {
+  background-color: #d5ebf8;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-content {
+  padding: 0px 5px 5px 5px;
+  line-height: 9px;
+}
+.friends {
+  font-size: 13px;
+  color: rgba(24, 21, 21, 0.651);
+}
+
+.add {
+  color: white;
+  background-color: rgb(46, 109, 245);
+  border: none;
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add:hover {
+  opacity: 0.8;
+}
+
+.add:active {
+  opacity: 0.5;
+}
